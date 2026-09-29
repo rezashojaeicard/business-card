@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <title>رضا شجاعی</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: #000;
+      color: #fff;
+      font-family: Tahoma, "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+    }
+
+    .page {
+      width: 100%;
+      min-height: 100vh;
+      padding: 18px 14px 28px;
+      background: #000;
+    }
+
+    .panel {
+      width: min(100%, 520px);
+      margin: 0 auto;
+      min-height: calc(100vh - 46px);
+      padding: 46px 28px 30px;
+      border-radius: 2px;
+      background:
+        radial-gradient(circle at 50% 10%, rgba(0, 67, 105, 0.09), transparent 34%),
+        linear-gradient(180deg, #01070d 0%, #01070c 100%);
+      box-shadow:
+        inset 0 0 28px rgba(0, 103, 153, 0.055),
+        0 0 18px rgba(0, 69, 110, 0.06);
+    }
+
+    .name {
+      margin: 0;
+      text-align: center;
+      color: #52c8f3;
+      font-size: 30px;
+      line-height: 1.8;
+      font-weight: 700;
+    }
+
+    .title {
+      text-align: center;
+      color: #f2f2f2;
+      font-size: 18px;
+      line-height: 2.2;
+      margin-top: 10px;
+      font-weight: 400;
+    }
+
+    .subinfo {
+      margin-top: 8px;
+      text-align: center;
+      color: #8b929a;
+      font-size: 15px;
+      line-height: 2.45;
+      font-weight: 400;
+    }
+
+    .subinfo .accent {
+      color: #54c8f3;
+      font-weight: 700;
+    }
+
+    .pencil {
+      text-align: center;
+      font-size: 40px;
+      line-height: 1;
+      margin: 56px 0 35px;
+      transform: rotate(-4deg);
+    }
+
+    .details {
+      margin: 0 auto;
+      padding: 0 20px 0 0;
+      max-width: 420px;
+      color: #f2f2f2;
+      font-size: 17px;
+      line-height: 2.15;
+      text-align: right;
+    }
+
+    .details li {
+      padding-right: 3px;
+      margin-bottom: 18px;
+    }
+
+    .details li::marker {
+      color: #fff;
+      font-size: 0.9em;
+    }
+
+    .contact {
+      margin-top: 58px;
+      text-align: center;
+    }
+
+    .mobile-icon {
+      font-size: 38px;
+      line-height: 1;
+      margin-bottom: 23px;
+    }
+
+    .phone {
+      color: #f0f0f0;
+      font-size: 16px;
+      line-height: 2;
+      margin-bottom: 18px;
+      direction: rtl;
+    }
+
+    .call-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      width: 58%;
+      max-width: 268px;
+      min-width: 180px;
+      height: 60px;
+      margin: 0 auto;
+      border-radius: 13px;
+      background: #083c77;
+      color: #e7d35d;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 400;
+      border: none;
+      box-shadow: none;
+    }
+
+    .footer {
+      margin-top: 28px;
+      text-align: center;
+      color: #d6d8db;
+      font-size: 13px;
+      direction: ltr;
+    }
+
+    @media (max-width: 430px) {
+      .page {
+        padding: 0;
+      }
+
+      .panel {
+        min-height: 100vh;
+        border-radius: 0;
+        padding: 44px 24px 30px;
+      }
+
+      .name { font-size: 28px; }
+      .title { font-size: 17px; }
+      .subinfo { font-size: 14px; }
+      .details {
+        font-size: 16px;
+        line-height: 2.2;
+        padding-right: 18px;
+      }
+
+      .pencil {
+        margin-top: 52px;
+        margin-bottom: 34px;
+      }
+
+      .contact {
+        margin-top: 54px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    <main class="panel">
+
+      <h1 class="name">رضا شجاعی</h1>
+
+      <div class="title">کارشناس رسمی دادگستری</div>
+
+      <div class="subinfo">
+        تحصیلات: کارشناس ارشد آب و سازه‌های هیدرولیکی<br>
+        <span class="accent">شماره پروانه: 23608</span><br>
+        شماره پروانه نظام مهندسی: 233100147
+      </div>
+
+      <div class="pencil">✏️</div>
+
+      <ul class="details">
+        <li>کارشناس رسمی دادگستری</li>
+        <li>کارشناس ارشد آب و سازه‌های هیدرولیکی</li>
+        <li>شماره پروانه کارشناسی رسمی دادگستری: 23608</li>
+        <li>شماره پروانه نظام مهندسی: 233100147</li>
+      </ul>
+
+      <section class="contact">
+        <div class="mobile-icon">📱</div>
+
+        <div class="phone">
+          شماره تماس: 09112185347
+        </div>
+
+        <a class="call-btn" href="tel:+989112185347">
+          📱 تماس موبایل
+        </a>
+      </section>
+
+      <div class="footer">Digital Business Card</div>
+    </main>
+  </div>
+</body>
+</html>
